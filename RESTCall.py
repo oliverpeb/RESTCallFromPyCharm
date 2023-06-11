@@ -31,8 +31,8 @@ get_all_temperatures()
 get_temperature_by_id(1)
 
 new_temperature = {
-    'RoomNo': '4ABC',
-    'Temp_C': 25,
+    'RoomNumber': '101',
+    'Temperature': 25,
     'Day': 'Thursday'
 }
 insert_temperature(new_temperature)
